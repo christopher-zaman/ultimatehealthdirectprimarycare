@@ -999,8 +999,9 @@ h1, h2, h3, h4, h5,
   background-color: #e6f1f6;
 }
 .fix-the-faqs{
-  background: none;
+    background: none;
     color: #fff;
+    white-space: inherit;
 }
 #summary {
   font-size: 14px;
