@@ -43,6 +43,10 @@ h1, h2, h3, h4, h5,
 .color-white-opacity-5 {
   color: rgba(255, 255, 255, 0.5); }
 
+.iv-hydration-bg{
+  background-image:url("../images/vitamins-bg.jpg");
+  background-size: cover;
+}
 .site-wrap:before {
   display: none;
   -webkit-transition: .3s all ease-in-out;
@@ -765,15 +769,72 @@ h1, h2, h3, h4, h5,
 .ftco-feature-1 {
   text-align: center;
   padding-top: 30px;
+  margin:5px;
   -webkit-transition: .3s all ease;
   -o-transition: .3s all ease;
   transition: .3s all ease;
-  background: #fff; }
+  height:665px;
+}
+
+.slide-bg-img-1{
+  background-image: url("../images/detox.jpg");
+  background-size:cover;
+  box-shadow: inset 0 0 0 1000px rgba(0,0,0,.5);
+}
+
+.slide-bg-img-2{
+  background-image: url("../images/immunity.jpg");
+  background-size:cover;
+  box-shadow: inset 0 0 0 1000px rgba(0,0,0,.5);
+}
+
+.slide-bg-img-3{
+  background-image: url("../images/recovery.jpg");
+  background-size:cover;
+  box-shadow: inset 0 0 0 1000px rgba(0,0,0,.5);
+}
+.slide-bg-img-4{
+  background-image: url("../images/weekends.jpg");
+  background-size:cover;
+  box-shadow: inset 0 0 0 1000px rgba(0,0,0,.5);
+}
+
+.slide-bg-img-5{
+  background-image: url("../images/scale.jpg");
+  background-size:cover;
+  box-shadow: inset 0 0 0 1000px rgba(0,0,0,.5);
+}
+.slide-bg-img-6{
+  background-image: url("../images/relax.jpg");
+  background-size:cover;
+  box-shadow: inset 0 0 0 1000px rgba(0,0,0,.5);
+}
+.slide-bg-img-7{
+  background-image: url("../images/vitamin.jpg");
+  background-size:cover;
+  box-shadow: inset 0 0 0 1000px rgba(0,0,0,.5);
+}
+
+.slide-bg-img-8{
+  background-image: url("../images/brain-booster.jpg");
+  background-size:cover;
+  box-shadow: inset 0 0 0 1000px rgba(0,0,0,.5);
+}
+.vitamin-bg-img{
+  background-image: url("../images/fat.jpg");
+  background-size:cover;
+
+}
+.larger-text{
+  font-size:larger;
+}
   .ftco-feature-1 .icon {
     font-size: 70px;
     color: #c83660; }
   .ftco-feature-1 .ftco-feature-1-text {
-    padding: 30px; }
+    padding: 30px;
+    /* background-color: rgba(0,0,0,0.5); */
+   }
   .ftco-feature-1 h2 {
     font-size: 20px;
     font-weight: bold; }
