@@ -1,0 +1,23 @@
+{
+  "name": "ultimatehealthdirectprimarycare",
+  "version": "1.0.0",
+  "description": "Direct Primary Care in Central Florida",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass --watch scss -o css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/christopher-zaman/ultimatehealthdirectprimarycare.git"
+  },
+  "keywords": [
+    "health"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/christopher-zaman/ultimatehealthdirectprimarycare/issues"
+  },
+  "homepage": "https://github.com/christopher-zaman/ultimatehealthdirectprimarycare#readme"
+}

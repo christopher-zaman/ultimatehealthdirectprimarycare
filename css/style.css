@@ -36,17 +36,84 @@ h1, h2, h3, h4, h5,
 
 .bg-black {
   background: #000 !important; }
+  .upwork-blue {
+      background-color: #1d4354;
+  }
+  .raleway{
+    font-family: 'Raleway', sans-serif;
+  }
+  .hide-on-big-screens{
+  display:none;
+}
+.font-size-2em{
+  font-size: 2em;
+}
+.thumbnail-size-image{
+  max-width: 49%;
+  float: left;
+}
+.position-relative{
+  position: relative;
+}
+.text-right{
+  text-align:right;
+}
+.fat-burner{
+  background-color: #fbf5ed;
+    z-index: -1;
+    width: 50%;
+    float: left;
+    margin: 0px 0px 0px 6px;
+    position: relative;
+    border-radius: 8px;
+}
+.margin-auto{
+  margin:auto;
+}
+.product-page-footer{
+  background-image: url("../banners/product-page-footer.png");
+  background-size:cover;
+}
+.beige-bg{
+  background-color: rgba(251,245,237,0.7);
+  float: left;
+  width: 100%;
+  margin-top:10px;
+  border-radius:8px;
+}
+.xx-large-text{
+  font-size: xx-large;
+}
+.remove-bullets-from-ul {
+  list-style-type: none;
+}
+.navbar-collapse .nav-item > a{
+  color:#fff;
+}
+.sticky-wrapper.is-sticky .site-navbar .navbar-collapse .nav-item > a {
+  color:#000;
+}
 
+.float-it-to-the-left {
+    float: left;
+}
+.vitamin-injections-bg{
+  background-image: url("../images/vitamin-injections-bg.png");
+  background-size:cover;
+}
+.iv-hydration-bg{
+  background-image: url("../images/iv-hydration-bg.png");
+  background-size:cover;
+}
 .color-black-opacity-5 {
   color: rgba(0, 0, 0, 0.5); }
 
 .color-white-opacity-5 {
   color: rgba(255, 255, 255, 0.5); }
-
-.iv-hydration-bg{
-  background-image:url("../images/vitamins-bg.jpg");
-  background-size: cover;
+.bg-color-white-opacity-5{
+  background-color: rgba(255, 255, 255, 0.5);
 }
+
 .site-wrap:before {
   display: none;
   -webkit-transition: .3s all ease-in-out;
@@ -1026,7 +1093,11 @@ h1, h2, h3, h4, h5,
 .add-padding{
   padding:25px;
 }
-
+#display-the-block{
+  display:block;
+  list-style-type: none;
+  float: left;
+}
 .green-bg{
   background-color: #51a0a4;
 }
