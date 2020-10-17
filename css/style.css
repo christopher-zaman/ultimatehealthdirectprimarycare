@@ -81,6 +81,10 @@ h1, h2, h3, h4, h5,
   margin-top:10px;
   border-radius:8px;
 }
+.beige-color{
+  background-color: #fbf5ed;
+  border-radius:8px;
+}
 .xx-large-text{
   font-size: xx-large;
 }
@@ -1170,4 +1174,25 @@ h1, h2, h3, h4, h5,
 
 .signature {
     font-size: x-large;
+}
+@media (max-width: 1024px) {
+  .thumbnail-size-image{
+    max-width:100%;
+  }
+  .fat-burner{
+    background-color: #fbf5ed;
+    border-radius: 8px;
+    width:100%;
+    margin:0;
+  }
+  .beige-color{
+    width: 40%;
+    margin:auto;
+  }
+}
+@media (max-width: 772px) {
+  .beige-color{
+    width: 10%;
+
+  }
 }
