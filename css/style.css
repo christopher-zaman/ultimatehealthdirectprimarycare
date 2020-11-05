@@ -70,6 +70,9 @@ h1, h2, h3, h4, h5,
 .margin-auto{
   margin:auto;
 }
+.new-products{
+  
+}
 .product-page-footer{
   background-image: url("../banners/product-page-footer.png");
   background-size:cover;
