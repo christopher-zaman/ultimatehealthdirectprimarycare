@@ -70,6 +70,13 @@ h1, h2, h3, h4, h5,
 .margin-auto{
   margin:auto;
 }
+
+.mens-health-icon{
+  list-style-image: url("..images/real-heart.gif");
+}
+ul {
+  /*list-style-image: url("https://mdn.mozillademos.org/files/11981/starsolid.gif");*/
+}
 .new-products{
   
 }
@@ -90,6 +97,9 @@ h1, h2, h3, h4, h5,
 }
 .xx-large-text{
   font-size: xx-large;
+}
+.font-size-larger{
+  font-size:larger;
 }
 .remove-bullets-from-ul {
   list-style-type: none;
@@ -1125,6 +1135,8 @@ h1, h2, h3, h4, h5,
 }
 .make-faq-card-transparent{
   background-color: rgba(0,0,0,0.7) !important;
+  /*background-color: #f8f8ec;*/
+    
 }
 /*ABOUT ME STYLES*/
 .about-me-pink-bg-text{
@@ -1143,6 +1155,33 @@ h1, h2, h3, h4, h5,
     background: none;
     color: #fff;
     white-space: inherit;
+}
+.micro-color{
+  color: #e97e00;
+  background: #F8F8EC;
+}
+.micro-color-text{
+  color: #e97e00;
+}
+.keys-padding{
+  padding: 10px;
+}
+.remove-padding{
+  padding: 0;
+}
+.padding-five-pixels{
+  padding: 5px;
+}
+
+.micro-color-transparent{
+  background-color: rgba(248,248,236, 0.7);
+}
+.health-care-services-title-color{
+  color: #e97e00;
+  background:#F8F8EC;
+}
+.amanda-neil-photo{
+  max-width:100%;
 }
 #summary {
   font-size: 14px;
