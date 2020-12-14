@@ -131,17 +131,16 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-3">
-          <!-- Health Care Services Begins -->
-          <div id="accordion">
+          <!-- visible on lg and xl screens begins -->            
+            <div class="d-none d-sm-none d-md-none d-lg-block d-xl-block">
             <div class="card health-care-services-title-color">
               <div id="headingOne">
                 <h5 class="mb-0">
-                  <button class="btn micro-color" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Health Care Services
+                  <button class="btn micro-color contain-the-text" data-toggle="collapse" data-target="#collapseOneFirst" aria-expanded="true" aria-controls="collapseOneFirst">Health Care Services
                   </button>
                 </h5>
               </div>
-              <!-- insert after id=collapsOne: class="collapse" aria-labelledby="headingOne" data-parent="#accordion" -->
-              <div id="collapseOne">
+              <div id="collapseOneFirst">
                 <div class="card-body font-size-larger">
                   <ul class="remove-bullets-from-ul remove-padding">
                     <li><a href="primary-care.html#primary-care-section" class="micro-color">Primary care</a></li>
@@ -154,19 +153,7 @@
                     <li><a href="urgent-care.html#urgent-care" class="micro-color">Urgent Care</a></li>
                     <li><a href="diabetes-specialist.html#diabetes-specialist" class="micro-color">Diabetes specialist</a></li>
                     <li><a href="iv-hydration.html#iv-hydration" class="micro-color">IV Hydration</a></li>
-                      <ul>
-                        <li><a href="detox-meyers-cocktail.html">Detox</a></li>
-                        <li><a href="immunity.html">Immunity</a></li>
-                        <li><a href="recovery.html">Recovery</a></li>
-                        <li><a href="performance.html">Performance</a></li>
-                      </ul>
-                      <li><a href="vitamin-injections.html#vitamin-injections" class="micro-color">Vitamin Injections</a></li>
-                      <ul>
-                        <li><a href="fat-burner.html">Fat Burner</a></li>
-                        <li><a href="relax-formula.html">Relax Formula</a></li>
-                        <li><a href="vitamin-b-twelve.html">Vitamin B12</a></li>
-                        <li><a href="brain-booster.html">Brain Booster</a></li>
-                      </ul>
+                    <li><a href="vitamin-injections.html#vitamin-injections" class="micro-color">Vitamin Injections</a></li>
                     <li><a href="no-insurance-health-care.html#no-insurance-health-care" class="micro-color">No insurance health care</a></li>
                     <li><a href="cash-based-medicine.html#cash-based-medicine" class="micro-color">Cash based medicine</a></li>                    
                   </ul>  
@@ -174,7 +161,40 @@
               </div>
             </div>
           </div>
-          <!-- Health Care Services Ends -->
+          <!-- visible lg and xl ends -->
+
+            <!-- visible on sm, md lg begins -->
+          <!-- Health Care Services List Begins -->
+          <div class="d-sm-block d-md-block d-lg-none d-xl-none">          
+            <div class="card health-care-services-title-color">
+              <div id="headingOne">
+                <h5 class="mb-0">
+                  <button class="btn micro-color" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">Expand Health Care Services
+                  </button>
+                </h5>
+              </div>
+              <div id="collapseOne" class="collapse">
+                <div class="card-body font-size-larger">
+                  <ul class="remove-bullets-from-ul remove-padding">               
+                    <li><a href="primary-care.html#primary-care-section" class="micro-color">Primary care</a></li>
+                    <li><a href="vaginal-rejuvenation.html#vaginal-rejuvenation" class="micro-color">Vaginal rejuvenation</a></li>
+                    <li><a href="health-care-house-calls.html#health-care-house-calls" class="micro-color">House calls</a></li>
+                    <li><a href="twenty-four-hour-health-care.html#twenty-four-hour-health-care" class="micro-color">24 hour health care</a></li>
+                    <li><a href="telemedicine.html#telemedicine" class="micro-color">Telemedicine</a></li>
+                    <li><a href="mens-health.html#mens-health" class="micro-color">Men's health</a></li>
+                    <li><a href="womens-health.html#womens-health" class="micro-color">Women's health</a></li>
+                    <li><a href="urgent-care.html#urgent-care" class="micro-color">Urgent Care</a></li>
+                    <li><a href="diabetes-specialist.html#diabetes-specialist" class="micro-color">Diabetes specialist</a></li>
+                    <li><a href="iv-hydration.html#iv-hydration" class="micro-color">IV Hydration</a></li>
+                    <li><a href="vitamin-injections.html#vitamin-injections" class="micro-color">Vitamin Injections</a></li>
+                    <li><a href="no-insurance-health-care.html#no-insurance-health-care" class="micro-color">No insurance health care</a></li>
+                    <li><a href="cash-based-medicine.html#cash-based-medicine" class="micro-color">Cash based medicine</a></li>                    
+                  </ul>  
+                </div>
+              </div>
+            </div>
+        </div>
+          <!-- Health Care Services List Ends Good -->
           </div>
           <div class="col-lg-6">
             <h2 class="heading mb-3 google-font-julius-sans-one text-center text-info bg-color-white-opacity-5" data-aos="fade-left"><strong>IV Hydration</strong></h2>

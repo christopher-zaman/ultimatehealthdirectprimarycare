@@ -1096,6 +1096,10 @@ ul {
 .make-responsive-image{
   max-width: 100%;
 }
+.contain-the-text{
+  max-width: 100%;
+  letter-spacing: normal;
+}
 .whatsgoingon{
   width: 20%;
   position: absolute;
