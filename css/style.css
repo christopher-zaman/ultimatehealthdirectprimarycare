@@ -54,6 +54,9 @@ h1, h2, h3, h4, h5,
 .border-one-pixel-dotted{
   border: 1px dotted;
 }
+.no-bottom-border{
+  border-bottom:none;
+}
 .thumbnail-size-image{
   max-width: 49%;
   float: left;
