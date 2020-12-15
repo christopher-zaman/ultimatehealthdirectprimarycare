@@ -9,7 +9,9 @@
 
   th,
   td {
-    padding: $table-cell-padding;
+    //
+    //padding: $table-cell-padding;
+    //
     vertical-align: top;
     border-top: $table-border-width solid $table-border-color;
   }
