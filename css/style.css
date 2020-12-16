@@ -72,6 +72,20 @@ h1, h2, h3, h4, h5,
 .my-table {
     display: flex;
 }
+.plus{
+  width: 30%;
+  float: left;
+}
+.minus{
+  width: 40%;
+  margin: auto;
+  float: left;
+}
+.equals{
+  width: 30%;
+  margin: auto;
+  float: right;
+}
 
 .my-column {
     margin-bottom: 1em;
