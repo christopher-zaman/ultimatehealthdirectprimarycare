@@ -45,6 +45,8 @@ h1, h2, h3, h4, h5,
   .hide-on-big-screens{
   display:none;
 }
+
+
 .font-size-2em{
   font-size: 2em;
 }
@@ -134,10 +136,20 @@ ul {
 .new-products{
 
 }
-.product-page-footer{
+
+.no-webp .product-page-footer {
   background-image: url("../banners/product-page-footer.png");
   background-size:cover;
 }
+
+.webp .product-page-footer{
+  background-image: url("../banners/product-page-footer.webp");
+  background-size:cover;
+}
+/*.product-page-footer{
+  background-image: url("../banners/product-page-footer.png");
+  background-size:cover;
+}*/
 .beige-bg{
   background-color: rgba(251,245,237,0.7);
   float: left;
@@ -168,10 +180,20 @@ ul {
 .float-it-to-the-left {
     float: left;
 }
-.vitamin-injections-bg{
+/*seo image*/
+.no-webp .vitamin-injections-bg {
   background-image: url("../images/vitamin-injections-bg.png");
   background-size:cover;
 }
+
+.webp .vitamin-injections-bg{
+  background-image: url("../images/vitamin-injections-bg.webp");
+  background-size:cover;
+}
+/*.vitamin-injections-bg{
+  background-image: url("../images/vitamin-injections-bg.png");
+  background-size:cover;
+}*/
 .iv-hydration-bg{
   background-image: url("../images/iv-hydration-bg.png");
   background-size:cover;
