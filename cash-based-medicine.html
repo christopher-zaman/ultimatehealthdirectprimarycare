@@ -24,15 +24,15 @@
   <link rel="icon" type="image/ico" href="images/favicon.ico"/>
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-7Y78T26JM6"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-7Y78T26JM6"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
 
-  gtag('config', 'G-7Y78T26JM6');
-</script>
-</head>
+    gtag('config', 'G-7Y78T26JM6');
+  </script>
+  </head>
 
 <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
   <div class="site-wrap">
@@ -85,9 +85,13 @@
       </div>
     </header>
 
-    <img src="banners/primary-care-banner.png" class="make-responsive-image" alt="No Insurance Health Care" />
+    <picture>
+      <source srcset="banners/primary-care-banner.webp" class="make-responsive-image" type="image/webp">
+      <img src="banners/primary-care-banner.png" class="make-responsive-image" alt="Cash Based Medicine">
+    </picture>
+    <!-- <img src="banners/primary-care-banner.png" class="make-responsive-image" alt="No Insurance Health Care" /> -->
 
-    <div class="site-section vitamin-injections-bg" id="cash-based-medicine">
+    <div class="site-section vitamin-injections-bg" id="cash-based-medicine" style="background-image:url(images/vitamin-injections-bg.webp);">
       <div class="container">
         <div class="row">
           <div class="col-lg-3">
@@ -163,7 +167,11 @@
           <div class="col-lg-6">
             <h4 class="micro-color-text text-center">Cash based medicine</h4>
             <p class="larger-text micro-color-transparent" data-aos="fade-right">
-              <img class="d-block h-200 margin-auto float-left keys-padding" src="images/cash-medicine.png" alt="Cash Based Medicine">
+              <picture>
+                <source srcset="images/cash-medicine.webp" class="d-block h-200 margin-auto float-left keys-padding" type="image/webp">
+                <img src="images/cash-medicine.png" class="d-block h-200 margin-auto float-left keys-padding" alt="Cash Based Medicine in Leesburg Florida ">
+              </picture>
+              <!-- <img class="d-block h-200 margin-auto float-left keys-padding" src="images/cash-medicine.png" alt="Cash Based Medicine"> -->
               Ultimate Health DPC is not health insurance; it's quality health care, when you need it, and at prices you can afford.
               Price Transparency is the foundation of our plan. You, as a patient, will always be aware of how much you pay for your
               membership and what the cost of any additional charges that are not covered by your plan will be.
@@ -184,7 +192,13 @@
                 <li><h4 class="p-name micro-color">Amanda Neil</h4></li>
               </ul>
                 <div class="card-body">
-                  <img src="images/amanda-neil.png" class="u-photo amanda-neil-photo" />
+
+                  <picture>
+                    <source srcset="images/amanda-neil.webp" class="u-photo amanda-neil-photo" type="image/webp">
+                    <img src="images/amanda-neil.png" class="u-photo amanda-neil-photo" alt="Amanda Neil MSN, APRN">
+                  </picture>
+                  <!-- <img src="images/amanda-neil.png" class="u-photo amanda-neil-photo" /> -->
+
                 </div>
                 <ul class="remove-bullets-from-ul padding-five-pixels">
                 <li><span class="p-job-title">MSN, APRN</span></li>
@@ -215,7 +229,7 @@
       </div>
     </div>
     <!--Footer Begins-->
-        <footer class="footer-section product-page-footer">
+        <footer class="footer-section product-page-footer" style="background-image:url(banners/product-page-footer.webp);">
           <div class="container">
             <div class="row h-card">
               <div class="col-md-4 text-center">
