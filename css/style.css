@@ -146,10 +146,10 @@ ul {
   background-image: url("../banners/product-page-footer.webp");
   background-size:cover;
 }
-/*.product-page-footer{
+.product-page-footer{
   background-image: url("../banners/product-page-footer.png");
   background-size:cover;
-}*/
+}
 .beige-bg{
   background-color: rgba(251,245,237,0.7);
   float: left;
@@ -190,10 +190,10 @@ ul {
   background-image: url("../images/vitamin-injections-bg.webp");
   background-size:cover;
 }
-/*.vitamin-injections-bg{
+.vitamin-injections-bg{
   background-image: url("../images/vitamin-injections-bg.png");
   background-size:cover;
-}*/
+}
 .iv-hydration-bg{
   background-image: url("../images/iv-hydration-bg.png");
   background-size:cover;

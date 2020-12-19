@@ -84,8 +84,14 @@
         </div>
       </div>
     </header>
-    <img src="banners/primary-care-banner.png" class="make-responsive-image" alt="vaginal rejuvenation"/>
-    <div class="site-section vitamin-injections-bg" id="vaginal-rejuvenation">
+
+    <picture>
+      <source srcset="banners/primary-care-banner.webp" class="make-responsive-image" type="image/webp">
+      <img src="banners/primary-care-banner.png" class="make-responsive-image" alt="Women's Health Care">
+    </picture>
+
+    <!-- <img src="banners/primary-care-banner.png" class="make-responsive-image" alt="vaginal rejuvenation"/> -->
+    <div class="site-section vitamin-injections-bg" id="vaginal-rejuvenation" style="background-image:url(images/vitamin-injections-bg.webp);">
       <div class="container">
         <div class="row">
           <div class="col-lg-3">
@@ -160,7 +166,11 @@
           <div class="col-lg-6">
             <h4 class="micro-color-text text-center">Vaginal rejuvenation</h4>
             <p class="larger-text micro-color-transparent" data-aos="fade-right">
-              <img class="d-block h-200 margin-auto float-left keys-padding" src="images/vaginal-rejuvination.png" alt="Vaginal Rejuvenation">
+              <picture>
+                <source srcset="images/vaginal-rejuvination.webp" class="d-block h-200 margin-auto float-left keys-padding" type="image/webp">
+                <img src="images/vaginal-rejuvination.png" class="d-block h-200 margin-auto float-left keys-padding"  alt="Vaginal Rejuvenation"> 
+              </picture>
+              <!-- <img class="d-block h-200 margin-auto float-left keys-padding" src="images/vaginal-rejuvination.png" alt="Vaginal Rejuvenation"> -->
               Laser Vaginal Tightening with FemiLift is a breakthrough treatment that can help restore a youthful vagina and improve stress urinary incontinence.
               The technology uses an Alma CO2 laser to deliver fractionated light and thermal energy to assist in vaginal mucosa revitalization.
               Vaginal rejuvenation can help you restore tightness and tone, alleviate common problems such as painful intercourse and mild incontinence,
@@ -186,7 +196,12 @@
                 <li><h4 class="p-name micro-color">Amanda Neil</h4></li>
               </ul>
                 <div class="card-body">
-                  <img src="images/amanda-neil.png" class="u-photo amanda-neil-photo" alt="Amanda Neil MSN, APRN"/>
+                <!-- Professional Picture -->
+                <picture>
+                  <source srcset="images/amanda-neil.webp" class="u-photo amanda-neil-photo" type="image/webp">
+                  <img src="images/amanda-neil.png" class="u-photo amanda-neil-photo" alt="Amanda Neil MSN, APRN">
+                </picture>
+                <!-- <img src="images/amanda-neil.png" class="u-photo amanda-neil-photo" alt="Amanda Neil MSN, APRN"/> -->
                 </div>
                 <ul class="remove-bullets-from-ul padding-five-pixels">
                 <li><span class="p-job-title">MSN, APRN</span></li>
@@ -216,7 +231,7 @@
       </div>
     </div>
     <!--Footer Begins-->
-        <footer class="footer-section product-page-footer">
+        <footer class="footer-section product-page-footer" style="background-image:url(banners/product-page-footer.webp);">
           <div class="container">
             <div class="row h-card">
               <div class="col-md-4 text-center">
