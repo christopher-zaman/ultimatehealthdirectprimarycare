@@ -86,9 +86,14 @@
       </div>
     </header>
 
-    <img src="banners/primary-care-banner.png" class="make-responsive-image" alt="Urgent Health Care" />
+    <picture>
+      <source srcset="banners/primary-care-banner.webp" class="make-responsive-image" type="image/webp">
+      <img src="banners/primary-care-banner.png" class="make-responsive-image" alt="Women's Health Care">
+    </picture>
 
-    <div class="site-section vitamin-injections-bg" id="urgent-care">
+    <!-- <img src="banners/primary-care-banner.png" class="make-responsive-image" alt="Urgent Health Care" /> -->
+
+    <div class="site-section vitamin-injections-bg" id="urgent-care" style="background-image:url(images/vitamin-injections-bg.webp);">
       <div class="container">
         <div class="row">
           <div class="col-lg-3">
@@ -164,7 +169,11 @@
           <div class="col-lg-6">
             <h4 class="micro-color-text text-center">Urgent Care</h4>
             <p class="larger-text micro-color-transparent" data-aos="fade-right">
-              <img class="d-block h-200 margin-auto float-left keys-padding width-25" src="images/urgent-care.png" alt="Urgent Care">
+              <picture>
+                <source srcset="images/urgent-care.webp" class="d-block h-200 margin-auto float-left keys-padding width-25" type="image/webp">
+                <img src="images/urgent-care.png" class="d-block h-200 margin-auto float-left keys-padding" alt="Urgent Care in Leesburg Florida">
+              </picture>
+              <!-- <img class="d-block h-200 margin-auto float-left keys-padding width-25" src="images/urgent-care.png" alt="Urgent Care"> -->
               Ultimate Health DPC patients have unlimited access to a wide range of direct primary care services, including urgent care.
               For instance, a DPC provider can provide prompt treatment for many common, non-life-threatening illnesses and injuries, such as:<br>
                 <ul class="larger-text micro-color-transparent text-center remove-bullets-from-ul">
@@ -227,7 +236,11 @@
                 <li><h4 class="p-name micro-color">Amanda Neil</h4></li>
               </ul>
                 <div class="card-body">
-                  <img src="images/amanda-mandy-neil.png" class="u-photo amanda-neil-photo" alt="Amanda Neil MSN, APRN"/>
+                  <picture>
+                    <source srcset="images/amanda-neil.webp" class="u-photo amanda-neil-photo" type="image/webp">
+                    <img src="images/amanda-neil.png" class="u-photo amanda-neil-photo" alt="Amanda Neil MSN, APRN">
+                  </picture>
+                  <!-- <img src="images/amanda-mandy-neil.png" class="u-photo amanda-neil-photo" alt="Amanda Neil MSN, APRN"/> -->
                 </div>
                 <ul class="remove-bullets-from-ul padding-five-pixels">
                 <li><span class="p-job-title">MSN, APRN</span></li>
@@ -257,7 +270,7 @@
       </div>
     </div>
     <!--Footer Begins-->
-        <footer class="footer-section product-page-footer">
+        <footer class="footer-section product-page-footer" style="background-image:url(banners/product-page-footer.webp);">
           <div class="container">
             <div class="row h-card">
               <div class="col-md-4 text-center">
