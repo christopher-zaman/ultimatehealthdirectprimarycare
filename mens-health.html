@@ -85,9 +85,14 @@
       </div>
     </header>
 
-    <img src="banners/primary-care-banner.png" class="make-responsive-image" alt="Men's Health" />
+    <picture>
+      <source srcset="banners/primary-care-banner.webp" class="make-responsive-image" type="image/webp">
+      <img src="banners/primary-care-banner.png" class="make-responsive-image" alt="Women's Health Care">
+    </picture>
 
-    <div class="site-section vitamin-injections-bg" id="mens-health">
+    <!-- <img src="banners/primary-care-banner.png" class="make-responsive-image" alt="Men's Health" /> -->
+
+    <div class="site-section vitamin-injections-bg" id="mens-health" style="background-image:url(images/vitamin-injections-bg.webp);">
       <div class="container">
         <div class="row">
           <div class="col-lg-3">
@@ -163,7 +168,12 @@
           <div class="col-lg-6">
             <h4 class="micro-color-text text-center">Men's health</h4>
             <p class="larger-text micro-color-transparent" data-aos="fade-right">
-              <img class="d-block h-200 margin-auto float-left keys-padding" src="images/mens-health.png" alt="Men's health care">
+              <picture>
+                <source srcset="images/mens-health.webp" class="d-block h-200 margin-auto float-left keys-padding" type="image/webp">
+                <img src="images/mens-health.png" class="d-block h-200 margin-auto float-left keys-padding" alt="Men's health care in Leesburg Florida">
+              </picture>
+
+              <!-- <img class="d-block h-200 margin-auto float-left keys-padding" src="images/mens-health.png" alt="Men's health care"> -->
               At Ultimate Health, we are passionate about helping men rediscover the best version of themselves.
               The clinic has a mission to serve the men of Central Florida with innovative, individualized, finely-tuned,
               modern medical solutions for a variety of health concerns – physical, mental and emotional.
@@ -186,7 +196,11 @@
                 <li><h4 class="p-name micro-color">Amanda Neil</h4></li>
               </ul>
                 <div class="card-body">
-                  <img src="images/amanda-mandy-neil.png" class="u-photo amanda-neil-photo" alt="Amanda Neil MSN, APRN" />
+                  <picture>
+                    <source srcset="images/amanda-neil.webp" class="u-photo amanda-neil-photo" type="image/webp">
+                    <img src="images/amanda-neil.png" class="u-photo amanda-neil-photo" alt="Amanda Neil MSN, APRN">
+                  </picture>
+                  <!-- <img src="images/amanda-mandy-neil.png" class="u-photo amanda-neil-photo" alt="Amanda Neil MSN, APRN" /> -->
                 </div>
                 <ul class="remove-bullets-from-ul padding-five-pixels">
                 <li><span class="p-job-title">MSN, APRN</span></li>
@@ -216,7 +230,7 @@
       </div>
     </div>
     <!--Footer Begins-->
-        <footer class="footer-section product-page-footer">
+        <footer class="footer-section product-page-footer" style="background-image:url(banners/product-page-footer.webp);">
           <div class="container">
             <div class="row h-card">
               <div class="col-md-4 text-center">
