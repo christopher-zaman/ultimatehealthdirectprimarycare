@@ -101,7 +101,11 @@
 
 
     <!--Home section begins-->
-    <img src="images/main-bg.png" class="make-responsive-image" alt="Direct Primary Care Adult Medicine"/>
+    <picture>
+      <source srcset="images/main-bg.webp" class="make-responsive-image" type="image/webp">
+      <img src="images/main-bg.png" class="make-responsive-image" alt="Direct Primary Care Adult Medicine">
+    </picture>
+    <!-- <img src="images/main-bg.png" class="make-responsive-image" alt="Direct Primary Care Adult Medicine"/> -->
     <!--home section ends-->
 
 <!--SERVICES SECTION begins-->
@@ -212,7 +216,7 @@
     </div>
 <!--About Ultimate Health DPC ends-->
 <!--About Me begins-->
-    <div class="site-section about-me-pink-bg" id="about-me">
+    <div class="site-section about-me-pink-bg" id="about-me" style="background-image:url(images/about-me-pink-bg.webp);">
       <div class="container">
         <div class="row justify-content-center text-center mb-5" data-aos="fade-up">
           <div class="col-md-8 section-heading">
@@ -223,8 +227,13 @@
         <div class="row justify-content-center h-card">
           <div class="col-lg-3 mb-4 mb-lg-0 col-md-6" data-aos="fade-up" data-aos-delay="">
             <div class="person">
+              <picture>
+                <source srcset="images/amanda-facetime.webp" class="img-fluid the-box-shadow u-photo" type="image/webp">
+                <img src="images/amanda-facetime.png" alt="Amanda Neil MSN, APRN" class="img-fluid the-box-shadow u-photo">
+                <a href="index.html#about-me" class="u-url micro-color" rel="me"></a>
+              </picture>
 
-              <img src="images/amanda-facetime.png" alt="Amanda Neil MSN, APRN" class="img-fluid the-box-shadow u-photo"><a href="index.html#about-me" class="u-url micro-color" rel="me"></a>
+
               <h2 class="text-center text-white text-shadow"><span class="p-name">Amanda Neil</span><br><span class="p-job-title">MSN, APRN</span></h2>
             </div>
           </div>
@@ -504,7 +513,7 @@
     </div>
 <!--Employers Section Ends-->
     <!--FAQ Section Begins-->
-    <div class="site-section bubble-bg" id="faq-section">
+    <div class="site-section bubble-bg" id="faq-section" style="background-image:url(images/bubble-bg.webp);">
       <div class="container">
         <div class="row justify-content-center text-center mb-5">
           <div class="col-md-8 section-heading">
@@ -819,7 +828,7 @@
 </div>
 <!--Contact Section Ends-->
 <!--Footer Begins-->
-    <footer class="footer-section footer-image transparent-bg">
+    <footer class="footer-section footer-image transparent-bg" style="background-image:url(images/footer-image.webp);">
       <div class="container">
         <div class="row h-card">
           <div class="col-md-4 text-center">
