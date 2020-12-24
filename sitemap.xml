@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+   <url>
+
+      <loc>http://www.ultimatehealthdpc.com/</loc>
+
+      <priority>0.8</priority>
+
+   </url>
+
+   <url>
+
+      <loc>https://www.ultimatehealthdpc.com/primary-care.html</loc>
+
+      <priority>0.8</priority>
+
+   </url>
+
+   <url>
+
+      <loc>https://www.ultimatehealthdpc.com/urgent-care.html</loc>
+
+      <priority>0.8</priority>
+
+   </url>
+
+   <url>
+
+      <loc>https://www.ultimatehealthdpc.com/womens-health.html</loc>
+
+      <priority>0.8</priority>
+
+   </url>
+
+   <url>
+
+      <loc>https://www.ultimatehealthdpc.com/mens-health.html</loc>
+
+      <priority>0.8</priority>
+
+   </url>
+
+   <url>
+
+      <loc>https://www.ultimatehealthdpc.com/telemedicine.html</loc>
+
+      <priority>0.8</priority>
+
+   </url>
+
+
+</urlset>
