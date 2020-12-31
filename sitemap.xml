@@ -6,7 +6,7 @@
 
       <loc>http://www.ultimatehealthdpc.com/</loc>
 
-      <priority>0.8</priority>
+      <priority>1.0</priority>
 
    </url>
 
@@ -45,6 +45,107 @@
    <url>
 
       <loc>https://www.ultimatehealthdpc.com/telemedicine.html</loc>
+
+      <priority>0.8</priority>
+
+   </url>
+
+   <url>
+
+      <loc>https://www.ultimatehealthdpc.com/health-care-house-calls.html</loc>
+
+      <priority>0.8</priority>
+
+   </url>
+
+   <url>
+
+      <loc>https://www.ultimatehealthdpc.com/twenty-four-hour-health-care.html</loc>
+
+      <priority>0.8</priority>
+
+   </url>
+
+   <url>
+
+      <loc>https://www.ultimatehealthdpc.com/vaginal-rejuvenation.html</loc>
+
+      <priority>0.8</priority>
+
+   </url>
+   <url>
+
+      <loc>https://www.ultimatehealthdpc.com/iv-hydration.html</loc>
+
+      <priority>0.8</priority>
+
+   </url>
+   <url>
+
+      <loc>https://www.ultimatehealthdpc.com/detox-meyers-cocktail.html</loc>
+
+      <priority>0.8</priority>
+
+   </url>
+   <url>
+
+      <loc>https://www.ultimatehealthdpc.com/immunity.html</loc>
+
+      <priority>0.8</priority>
+
+   </url>
+   <url>
+
+      <loc>https://www.ultimatehealthdpc.com/recovery.html</loc>
+
+      <priority>0.8</priority>
+
+   </url>
+   <url>
+
+      <loc>https://www.ultimatehealthdpc.com/performance.html</loc>
+
+      <priority>0.8</priority>
+
+   </url>
+   <url>
+
+      <loc>https://www.ultimatehealthdpc.com/vitamin-injections.html</loc>
+
+      <priority>0.8</priority>
+
+   </url>
+   <url>
+
+      <loc>https://www.ultimatehealthdpc.com/fat-burner.html</loc>
+
+      <priority>0.8</priority>
+
+   </url>
+   <url>
+
+      <loc>https://www.ultimatehealthdpc.com/relax-formula.html</loc>
+
+      <priority>0.8</priority>
+
+   </url>
+   <url>
+
+      <loc>https://www.ultimatehealthdpc.com/vitamin-b-twelve.html</loc>
+
+      <priority>0.8</priority>
+
+   </url>
+   <url>
+
+      <loc>https://www.ultimatehealthdpc.com/brain-booster.html</loc>
+
+      <priority>0.8</priority>
+
+   </url>
+   <url>
+
+      <loc>https://www.ultimatehealthdpc.com/cash-based-medicine.html</loc>
 
       <priority>0.8</priority>
 
