@@ -74,6 +74,9 @@ h1, h2, h3, h4, h5,
 .my-table {
     display: flex;
 }
+.font-size-4em{
+  font-size: 4em;
+}
 .plus{
   width: 30%;
   float: left;
