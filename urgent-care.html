@@ -57,10 +57,32 @@
                              <div class="collapse navbar-collapse float-it-to-the-left" id="">
                           		<li class="nav-item dropdown">
                           			<a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">  Menu  </a>
-                          		    <ul class="dropdown-menu">
-                          			  <li><a class="dropdown-item" href="index.html"> Home </a></li>
-                          			  <li><a class="dropdown-item" href="iv-hydration.html"> IV Hydration </a></li>
-                          		    </ul>
+                                <ul class="dropdown-menu">
+                                  <li><a href="index.html" class="micro-color-text dropdown-item">Home</a></li>
+                                  <li><a href="primary-care.html#primary-care-section" class="micro-color-text dropdown-item">Primary care</a></li>
+                                  <li><a href="urgent-care.html#urgent-care" class="micro-color-text dropdown-item">Urgent Care</a></li>
+                                  <li><a href="womens-health.html#womens-health" class="micro-color-text dropdown-item">Women's health</a></li>
+                                  <li><a href="mens-health.html#mens-health" class="micro-color-text dropdown-item">Men's health</a></li>
+                                  <li><a href="telemedicine.html#telemedicine" class="micro-color-text dropdown-item">Telemedicine</a></li>
+                                  <li><a href="health-care-house-calls.html#health-care-house-calls" class="micro-color-text dropdown-item">House calls</a></li>
+                                  <li><a href="twenty-four-hour-health-care.html#twenty-four-hour-health-care" class="micro-color-text dropdown-item">24 hour health care</a></li>
+                                  <li><a href="vaginal-rejuvenation.html#vaginal-rejuvenation" class="micro-color-text dropdown-item">Vaginal rejuvenation</a></li>
+                                  <li><a href="iv-hydration.html" class="dropdown-item micro-color-text"> IV Hydration </a></li>
+                                  <ul>
+                                  <li><a href="detox-meyers-cocktail.html#detox-meyers-cocktail" class="dropdown-item micro-color-text">Detox</a></li>
+                                  <li><a href="immunity.html#immunity-section" class="dropdown-item micro-color-text">Immunity</a></li>
+                                  <li><a href="recovery.html#recovery" class="dropdown-item micro-color-text">Recovery</a></li>
+                                  <li><a href="performance.html#performance-section" class="dropdown-item micro-color-text">Performance</a></li>
+                                </ul>
+                                <li><a href="vitamin-injections.html#vitamin-injections" class="dropdown-item micro-color-text">Vitamin Injections</a></li>
+                                <ul>
+                                  <li><a href="fat-burner.html#fat-burner-section" class="dropdown-item micro-color-text">Fat Burner</a></li>
+                                  <li><a href="relax-formula.html#relax-formula-section" class="dropdown-item micro-color-text">Relax Formula</a></li>
+                                  <li><a href="vitamin-b-twelve.html#vitamin-b-tweleve" class="dropdown-item micro-color-text">Vitamin B12</a></li>
+                                  <li><a href="brain-booster.html#brain-booster" class="dropdown-item micro-color-text">Brain Booster</a></li>
+                                </ul>
+                                <li><a href="cash-based-medicine.html#cash-based-medicine" class="dropdown-item micro-color-text">Cash based medicine</a></li>
+                                </ul>
                           		</li>
                             </div>
                           </nav>
@@ -225,6 +247,34 @@
                 <p class="larger-text micro-color-transparent">Urgent care is a category of walk-in clinic in the United States focused on the delivery of ambulatory care in a
                 dedicated medical facility outside of a traditional emergency department.</p>
               </p>
+              <!-- Dropdown Begins -->
+            <div id="accordion">
+              <div class="card micro-color-transparent">
+                <div class="card-header" id="headingOne">
+                  <h5 class="mb-0">
+                    <button class="btn fix-the-faqs micro-color-text" data-toggle="collapse" data-target="#regForm" aria-expanded="false" aria-controls="regForm">
+                      Become a Member
+                    </button>
+                  </h5>
+                </div>
+                <div id="regForm" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                  <div class="card-body">
+                    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeiZy2b3XUybLvJCpIhfc5wuwLAKNFvF26Hym500Jbqapv9Tw/viewform?embedded=true" width="100%" height="920" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+                  </div>
+                </div>
+              </div>
+              <!-- <div class="card make-faq-card-transparent">
+                <div class="card-header list-group" id="headingTwo">
+                  <h5 class="mb-0">
+                    <button class="btn fix-the-faqs collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      What does the basic life support course teach?
+                    </button>
+                  </h5>
+                </div>
+              </div> -->
+            </div>
+            <br>
+            <!-- Dropdown Ends -->
           </div>
 
 
@@ -263,6 +313,28 @@
             </div>
           </div>
           <!-- h-card ends -->
+          <!--Email Subscribers Begins-->
+          <form name="submit-third-form-to-google-sheet" id="third-form" method="post">
+              <div class="d-flex mb-5">
+                <input name="email" type="email" class="form-control rounded-0" placeholder="Enter Your Email">
+                <input name="submitEmail" type="submit" class="btn btn-outline-warning rounded-0" value="Send">
+              </div>
+            </form>
+
+            <script>
+              const scriptURL3 = '#'
+              const form3 = document.forms['submit-third-form-to-google-sheet']
+
+              form3.addEventListener('submit', c => {
+                c.preventDefault()
+                fetch(scriptURL3, { method: 'POST', body: new FormData(form3)})
+                  .then(response => console.log('Success!', response))
+                  .catch(error => console.error('Error!', error.message))
+              document.forms['third-form'].reset()
+              })
+            </script>
+            <!--Email Subscribers Ends-->
+
         </div>
 
         </div>
@@ -274,44 +346,116 @@
           <div class="container">
             <div class="row h-card">
               <div class="col-md-4 text-center">
-                <h3 class="text-white raleway">Contact</h3>
-                <i class="far fa-paper-plane text-white"></i> <a href="mailto:ultimatehealthdpc@gmail.com" class="text-white raleway">Email</a>
+                <h2 class="text-white heading mb-3 google-font-julius-sans-one">Contact Us</h2>
+                <!-- <h4 class="text-white raleway">Contact</h4> -->
+                <br>
+                <i class="far fa-paper-plane text-white"></i> <a href="mailto:ultimatehealthdpc@gmail.com" class="font-size-x-large text-white">Email</a>
                 <br />
                 <br />
-                <i class="fas fa-mobile-alt text-white"></i> <a class="text-white raleway" href="tel:+1-850-980-1827"> Call 850-980-1827</a><br>
+                <br />
+                <i class="fas fa-mobile-alt text-white"></i> <a class="font-size-x-large text-white p-tel" href="tel:+1-850-980-1827">850-980-1827</a><br>
                 <br />
                 <br />
+
+                <meta property="og:url"                content="https://ultimatehealthdpc.com/" />
+                <meta property="og:type"               content="website" />
+                <meta property="og:title"              content="Innovative Health Care" />
+                <meta property="og:description"        content="Revolutionary health care practices streamline doctor visits for professionals with high deductibles" />
+                <meta property="og:image"              content="https://ultimatehealthdpc.com/images/amanda-facetime.png" />
+                <meta property="g:video"               content="https://www.youtube.com/embed/P9Jxk1imMnc" />
+
+              <ol class="display-inline-social-media-links">
+                <li><a itemprop="sameAs" href="https://www.linkedin.com/in/amanda-neil-msn-aprn-2b2238202/" class="font-size-2em nav-link text-white"><i class="fab fa-linkedin"></i></a></li>
+                <li><a href="#" target="_blank" class="font-size-2em nav-link text-white raleway"><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href="#" target="_blank" class="font-size-2em nav-link text-white"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="#" target="_blank" class="font-size-2em nav-link text-white"><i class="fab fa-instagram"></i></a></li>
+              </ol>
+
+
+
               </div>
-              <div class="col-md-3 text-center ml-auto">
-                <h3 class="text-white raleway">Follow us</h3>
-                  <a href="https://www.linkedin.com/in/amanda-neil-2b2238202/" class="nav-link text-white"><i class="font-size-larger fab fa-linkedin"></i></a>
-                  <a href="#" target="_blank" class="nav-link text-white raleway"><i class="font-size-larger fab fa-facebook-f"></i></a>
-                  <!-- <a href="#" class="nav-link text-white"><i class="fab fa-twitter"></i></a> -->
-                  <!-- <a href="#" class="nav-link text-white"><i class="fab fa-instagram"></i></a> -->
-                  <a href="#" class="nav-link text-white"></a>
-              <br>
-              </div>
+
+
+              <div class="col-md-4 text-center ml-auto">
+                <h2 class="google-font-julius-sans-one text-white">Hours of Operation</h2>
+                <table class="table raleway text-white">
+               <tbody>
+                 <tr>
+                   <td>Monday</td>
+                   <td>Open 24 Hours</td>
+                 </tr>
+                 <tr>
+                   <td>Tuesday</td>
+                   <td>Open 24 Hours</td>
+                 </tr>
+                 <tr>
+                   <td>Wednesday</td>
+                   <td>Open 24 Hours</td>
+                 </tr>
+                 <tr>
+                   <td>Thursday</td>
+                   <td>Open 24 Hours</td>
+                 </tr>
+                 <tr>
+                   <td>Friday</td>
+                   <td>Open 24 Hours</td>
+                 </tr>
+                 <tr>
+                   <td>Saturday</td>
+                   <td>Open 24 Hours</td>
+                 </tr>
+                 <tr>
+                   <td>Sunday</td>
+                   <td>Closed</td>
+                 </tr>
+
+               </tbody>
+             </table>
+             <br><br><br>
+
+
+
+
+          </div>
+
               <div class="col-md-4 text-center">
-                <h3 class="text-white text-center raleway">Visit Us</h3>
-                <a href="https://goo.gl/maps/vHzZeqo944fKS5xw9" class="p-adr h-adr text-white text-center" target="_blank">733 North 3rd Street<br />Leesburg, Fl 34748</a>
-                <!-- <table class="table raleway text-white">
-                  <tbody>
-                    <tr>
-                      <td></td>
-                    </tr>
-                    <tr>
-                      <td></td>
-                    </tr>
-                  </tbody>
-              </table> -->
-              <nav class="hide-on-big-screens position-relative text-right">
-                <ul class="js-clone-nav">
-                  <a href="iv-hydration.html"> IV Hydration </a>
-                  <a href="index.html"> Home </a>
-                  </ul>
-              </nav>
+                <h2 class="google-font-julius-sans-one text-white text-center">Location</h2>
+                <a href="https://g.page/UltimateHealthDPC?gm" class="font-size-larger text-white text-center p-adr h-adr" target="_blank" rel="noopener">
+                  <span class="p-street-address">733 North 3rd Street</span>
+                  <br />
+                  <span class="p-locality">Leesburg</span>,
+                  <span class="p-region">Fl</span>
+                  <span class="p-postal-code">34748</span>
+                </a>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3495.6741128360104!2d-81.87880778463354!3d28.81878388234476!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88e7c1ea00ccb37b%3A0x61f30c383d9291d!2sUltimate%20Health%20Direct%20Primary%20Care%2C%20LLC!5e0!3m2!1sen!2sus!4v1608665975012!5m2!1sen!2sus" width="100%" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+
+                <nav class="hide-on-big-screens position-relative text-right">
+
+                   <a href="primary-care.html" class="js-clone-nav">Primary care</a>
+                   <a href="urgent-care.html" class="js-clone-nav"><br>Urgent Care</a>
+                   <a href="womens-health.html" class="js-clone-nav"><br>Women's health</a>
+                   <a href="mens-health.html" class="js-clone-nav"><br>Men's health</a>
+                   <a href="telemedicine.html" class="js-clone-nav"><br>Telemedicine</a>
+                   <a href="health-care-house-calls.html" class="js-clone-nav"><br>House calls</a>
+                   <a href="twenty-four-hour-health-care.html" class="js-clone-nav"><br>24 hour health care</a>
+                   <a href="vaginal-rejuvenation.html" class="js-clone-nav"><br>Vaginal rejuvenation</a>
+                   <a href="vitamin-injections.html" class="js-clone-nav"><br>Vitamin Injections</a>
+                   <a href="detox-meyers-cocktail.html" class="js-clone-nav"><br>Detox</a></li>
+                   <a href="immunity.html" class="js-clone-nav"><br>Immunity</a>
+                   <a href="recovery.html" class="js-clone-nav"><br>Recovery</a>
+                   <a href="performance.html" class="js-clone-nav"><br>Performance</a>
+                   <a href="iv-hydration.html" class="js-clone-nav"><br>IV Hydration </a>
+                   <a href="detox-meyers-cocktail.html" class="js-clone-nav"><br>Detox</a>
+                   <a href="immunity.html" class="js-clone-nav"><br>Immunity</a>
+                   <a href="recovery.html" class="js-clone-nav"><br>Recovery</a>
+                   <a href="performance.html" class="js-clone-nav"><br>Performance</a>
+                   <a href="cash-based-medicine.html" class="js-clone-nav"><br>Cash based medicine</a>
+
+               </nav>
+
             </div>
-            </div>
+
+          </div>
             <div class="row pt-5 mt-5 text-center">
               <div class="col-md-12">
                 <div class="pt-5">

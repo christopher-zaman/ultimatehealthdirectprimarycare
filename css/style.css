@@ -49,12 +49,17 @@ h1, h2, h3, h4, h5,
   display: inline-flex;
   list-style-type: none;
 }
-
+.nav-color{
+  color: orange !important;
+}
 .font-size-2em{
   font-size: 2em;
 }
 .font-size-1em{
   font-size: 1em;
+}
+.logo-text{
+    margin: 0 0px 0 60px;
 }
 .contain-this{
 
@@ -488,7 +493,7 @@ ul {
 /* Navbar */
 .site-logo {
   /*position: relative;*/
-  font-weight: 900;
+
   font-size: 1.3rem;
   text-transform: uppercase; }
   .site-logo a {
@@ -790,7 +795,7 @@ ul {
   .sticky-wrapper.is-sticky .site-navbar {
     -webkit-box-shadow: 4px 0 20px -5px rgba(0, 0, 0, 0.2);
     box-shadow: 4px 0 20px -5px rgba(0, 0, 0, 0.2);
-    background: #fff; }
+    background: rgba(255, 255, 255, 0.2); }
     .sticky-wrapper.is-sticky .site-navbar .site-menu-toggle > span:before {
       color: #000 !important; }
     .sticky-wrapper.is-sticky .site-navbar .site-logo a {
@@ -807,8 +812,8 @@ ul {
         .sticky-wrapper.is-sticky .site-navbar .site-menu > li > a.active:after {
           background: #c83660; }
   .sticky-wrapper .shrink {
-    padding-top: 10px !important;
-    padding-bottom: 10px !important; }
+    padding-top: 20px !important;
+    padding-bottom: 30px !important; }
 
 /* Blocks */
 .intro-section {
@@ -1193,9 +1198,9 @@ ul {
   letter-spacing: normal;
 }
 .whatsgoingon{
-  width: 20%;
+  width: 10%;
   position: absolute;
-  margin-top: -40px;
+  margin: -36px -73px;
 }
 .google-font-julius-sans-one {
     font-family: 'Julius Sans One', sans-serif;
