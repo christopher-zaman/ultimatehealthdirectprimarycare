@@ -45,10 +45,16 @@ h1, h2, h3, h4, h5,
   .hide-on-big-screens{
   display:none;
 }
-
+.display-inline{
+  display: inline-flex;
+  list-style-type: none;
+}
 
 .font-size-2em{
   font-size: 2em;
+}
+.font-size-1em{
+  font-size: 1em;
 }
 .contain-this{
 
