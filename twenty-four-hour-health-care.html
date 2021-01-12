@@ -313,7 +313,7 @@
           </div>
           <!-- h-card ends -->
           <!--Email Subscribers Begins-->
-          <form name="submit-third-form-to-google-sheet" id="third-form" method="post">
+          <form name="submit-to-google-sheet" id="third-form" method="post">
               <div class="d-flex mb-5">
                 <input name="email" type="email" class="form-control rounded-0" placeholder="Enter Your Email">
                 <input name="submitEmail" type="submit" class="btn btn-outline-warning rounded-0" value="Send">
@@ -321,8 +321,8 @@
             </form>
 
             <script>
-              const scriptURL3 = '#'
-              const form3 = document.forms['submit-third-form-to-google-sheet']
+              const scriptURL3 = 'https://script.google.com/macros/s/AKfycbzNVSAo7I5jGD9fByzj2KOhGnAL63zZMGIQymv-0oTWmlyieN8m/exec'
+              const form3 = document.forms['submit-to-google-sheet']
 
               form3.addEventListener('submit', c => {
                 c.preventDefault()
