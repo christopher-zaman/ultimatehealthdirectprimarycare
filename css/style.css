@@ -16,15 +16,16 @@ html{overflow-x:hidden;width: auto;}body{line-height:1.7;font-weight:300;font-si
 
 
 
-  /* iphone 11 1792x828px at 326ppi */
+  /* iphone 11 1792x828px at 326ppi 
 @media only screen and (min-width: 375px) and (max-width: 414px)  {
       .whats-going-on {
       width: 38%;
       position: absolute;
-      margin: -60px 0px 0px 230px;
+      margin: -60px 0px 0px 250px;
   }
-}
-/* Extra small devices (phones, 600px and down) */
+}*/
+
+/* Extra small devices (phones, 600px and down) 
 @media only screen and (min-width: 415px) and (max-width: 600px) {
 	.hide-on-mobile{
 		display:none;
@@ -34,9 +35,9 @@ html{overflow-x:hidden;width: auto;}body{line-height:1.7;font-weight:300;font-si
     position: absolute;
     margin: -36px 0px 0px 0px;
 }
-}
+}*/
 
-/* Medium devices (landscape tablets, 768px and up) */
+/* Medium devices (landscape tablets, 768px and up) 
 @media only screen and (min-width: 601px) and (max-width: 768px) {
 	
 	.whats-going-on {
@@ -44,9 +45,9 @@ html{overflow-x:hidden;width: auto;}body{line-height:1.7;font-weight:300;font-si
     position: absolute;
     margin: -36px 0px 0px 0px;
 }
-}
+}*/
 
-@media only screen and (min-width: 769px) and (max-width: 992px) {
+/*@media only screen and (min-width: 769px) and (max-width: 992px) {
 	
 	.whats-going-on {
 		width: 22%;
@@ -54,9 +55,9 @@ html{overflow-x:hidden;width: auto;}body{line-height:1.7;font-weight:300;font-si
     margin: -36px 0px 0px 0px;
 }
 
-}
+}*/
 
-@media only screen and (min-width: 992px) and (max-width: 1200px) {
+/*@media only screen and (min-width: 992px) and (max-width: 1200px) {
 	
 	.whats-going-on {
 		width: 15%;
@@ -64,9 +65,9 @@ html{overflow-x:hidden;width: auto;}body{line-height:1.7;font-weight:300;font-si
     margin: -67px 0px 0px -255px;
 }
 
-}
+}*/
 
-@media only screen and (min-width: 1201px) and (max-width: 1227px){
+/*@media only screen and (min-width: 1201px) and (max-width: 1227px){
 	
 	.whats-going-on {
 		width: 15%;
@@ -74,9 +75,9 @@ html{overflow-x:hidden;width: auto;}body{line-height:1.7;font-weight:300;font-si
     margin: -67px 0px 0px -257px;
 }
 
-}
+}*/
 
-@media only screen and (min-width: 1228px) and (max-width: 1492px){
+/*@media only screen and (min-width: 1228px) and (max-width: 1492px){
 	
 	.whats-going-on {
 		width: 15%;
@@ -84,9 +85,9 @@ html{overflow-x:hidden;width: auto;}body{line-height:1.7;font-weight:300;font-si
     margin: -67px 0px 0px -187px;
 }
 
-}
+}*/
 
-@media only screen and (min-width: 1493px){
+/*@media only screen and (min-width: 1493px){
 	
 	.whats-going-on {
 		width: 10%;
@@ -94,6 +95,6 @@ html{overflow-x:hidden;width: auto;}body{line-height:1.7;font-weight:300;font-si
     margin: -46px 0px 0px -360px;
 }
 
-}
+}*/
 /*1227-1200*/
   
