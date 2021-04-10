@@ -14,7 +14,65 @@ html{overflow-x:hidden;width: auto;}body{line-height:1.7;font-weight:300;font-si
 /**/
   .footer-image{background-image:url(../images/footer-image.png)}.make-faq-card-transparent{background-color:rgba(0,0,0,.7)!important}.about-me-pink-bg-text{background-color:rgba(0,0,0,.3);color:#fff;padding:8px;font-size:large;box-shadow:24px 50px 60px rgba(0,0,0,.3)}.text-shadow{text-shadow:2px 2px #d2acb7}.the-box-shadow{box-shadow:24px 50px 60px rgba(0,0,0,.3)}.make-employee-member-benefit-bg-light-green{background-color:#e6f1f6}.fix-the-faqs{background:0 0;color:#fff;white-space:inherit}.micro-color{color:#e97e00;background:#f8f8ec}.micro-color-text{color:#e97e00}.keys-padding{padding:10px}.remove-padding{padding:0}.padding-five-pixels{padding:5px}.micro-color-transparent{background-color:rgba(248,248,236,.7);padding:5px}.health-care-services-title-color{color:#e97e00;background:#f8f8ec}.amanda-neil-photo{max-width:100%}#summary{font-size:14px;line-height:1.5}#summary p.collapse:not(.show){height:42px!important;overflow:hidden;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical}#summary p.collapsing{min-height:42px!important}#summary a.collapsed:after{content:'+ Read More'}#summary a:not(.collapsed):after{content:'- Read Less'}.sunny-morning-gradient-text{background-color:red;background-image:linear-gradient(120deg,#ffa354 0,#ff3900 100%);background-size:100%;background-repeat:repeat;-webkit-background-clip:text;-webkit-text-fill-color:transparent;-moz-background-clip:text;-moz-text-fill-color:transparent}.signature{font-size:x-large}@media (max-width:1024px){.thumbnail-size-image{max-width:100%}.fat-burner{background-color:#fbf5ed;border-radius:8px;width:100%;margin:0}.beige-color{width:40%;margin:auto}}@media (max-width:772px){.beige-color{width:10%}}
 
+.whats-going-on{
+	width: 15%;
+    position: absolute;
+    margin: -33px 0px 0px 0px;
+}
 
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+	.hide-on-mobile{
+		display:none;
+	}
+	.whats-going-on {
+		width: 15%;
+    position: absolute;
+    margin: -83px 0px 0px -250px;
+}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/*@media only screen and (min-width: 600px) {
+	.whats-going-on {
+		width: 18%;
+    position: absolute;
+    margin: 0px 0px 0px -550px;
+}
+}*/
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+	.hide-on-mobile{
+		display:none;
+	}
+	.whats-going-on {
+		width: 20%;
+    position: absolute;
+    margin: -32px 0px 0px 0px;
+}
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+	.whats-going-on {
+		width: 16%;
+    position: absolute;
+   margin: -45px 0px 0px -360px;
+}
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+	.whats-going-on {
+		width: 9%;
+    position: absolute;
+    margin-top: -37px;
+
+    
+}
+}
 
   /* iphone 11 1792x828px at 326ppi 
 @media only screen and (min-width: 375px) and (max-width: 414px)  {
