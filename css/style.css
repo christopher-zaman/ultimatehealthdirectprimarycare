@@ -31,7 +31,17 @@ html{overflow-x:hidden;width: auto;}body{line-height:1.7;font-weight:300;font-si
     margin: 0px 0px 0px -550px;
 }
 }*/
+@media only screen and (max-width: 414px) {
+	.hide-on-mobile{
+		display:none;
+	}
+	.whats-going-on {
+		width: 20%;
+    position: absolute;
+    margin: -20px 0px 0px 0px;
+}
 
+}
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (max-width: 768px) {
 	.hide-on-mobile{
