@@ -21,16 +21,7 @@ html{overflow-x:hidden;width: auto;}body{line-height:1.7;font-weight:300;font-si
 }
 
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
-	.hide-on-mobile{
-		display:none;
-	}
-	.whats-going-on {
-		width: 15%;
-    position: absolute;
-    margin: -83px 0px 0px -250px;
-}
-}
+
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 /*@media only screen and (min-width: 600px) {
@@ -49,7 +40,7 @@ html{overflow-x:hidden;width: auto;}body{line-height:1.7;font-weight:300;font-si
 	.whats-going-on {
 		width: 20%;
     position: absolute;
-    margin: -32px 0px 0px 0px;
+    margin: -20px 0px 0px 0px;
 }
 
 }
