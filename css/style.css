@@ -55,8 +55,8 @@ html{overflow-x:hidden;width: auto;}body{line-height:1.7;font-weight:300;font-si
 
 .whats-going-on{
 	width: 15%;
-    position: absolute;
-    margin: -33px 0px 0px 0px;
+  position: absolute;
+  margin: -33px 0px 0px 0px;
 }
 
 /* Extra small devices (phones, 600px and down) */
@@ -77,7 +77,7 @@ html{overflow-x:hidden;width: auto;}body{line-height:1.7;font-weight:300;font-si
 	.whats-going-on {
 		width: 20%;
     position: absolute;
-    margin: -20px 0px 0px 300px;
+    margin: -20px 0px 0px 900px;
 }
 
 }
@@ -99,7 +99,7 @@ html{overflow-x:hidden;width: auto;}body{line-height:1.7;font-weight:300;font-si
 	.whats-going-on {
 		width: 16%;
     position: absolute;
-   margin: -45px 0px 0px -360px;
+    margin: -45px 0px 0px -360px;
 }
 }
 
