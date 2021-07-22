@@ -35,7 +35,7 @@
     "@type" : "LocalBusiness",
     "name" : "Ultimate Health Direct Primary Care LLC",
     "image" : "https://www.ultimatehealthdpc.com/images/uhdpc-logo.svg",
-    "telephone" : "850-980-1827",
+    "telephone" : "352-901-6582",
     "url" : "https://www.ultimatehealthdpc.com/",
     "sameAs" : [
      "https://www.linkedin.com/in/amanda-neil-msn-aprn-2b2238202",
@@ -352,6 +352,77 @@
     <!-- <img src="images/home-bg-image.png" class="make-responsive-image" /> -->
     <div class="row">
       <div class="col-md-12">
+<!--  -->
+<style>
+#modal {
+    position: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 99999;
+    height: 100%;
+    width: 100%;
+}
+.modalconent {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: url("images/pop-up-bg.png");
+    width: 45%;
+    padding: 20px;
+}
+.popup-styles{
+  float: left;
+  width: 35%;
+}
+.pop-up-button-close{
+
+  float: right;
+    background: none;
+    border-radius: 5px;
+}
+.pop-up-msg-text{
+  font-family: 'Raleway';
+    font-size: larger;
+    font-weight: bold;
+    background-color: rgba(255,255,255,0.4);
+}
+.x-close{
+  float: right;
+    margin: -20px -10px 0px 0;
+    border: none;
+    background: none;
+    font-size: x-large;
+}
+</style>
+        <div id="modal">
+          <div class="modalconent">
+               <h1></h1>
+               <img class="popup-styles" src="images/logo.svg"/>
+               <button id="x-button" class="x-close">X</button>
+                <p class="pop-up-msg-text">Please note that none of the services or products offered by Ultimate Health DPC LLC are intended to diagnose, treat, cure,
+                  or prevent any disease including COVID-19 and will not be advertised as such. One should always consult with their physician before
+                  beginning any IV hydration therapy program. We do not service anyone under the age of 18 or currently pregnant.
+                </p>
+              <button id="button" class="pop-up-button-close">Close</button>
+          </div>
+        </div>
+
+        <script>
+        window.onload = function () {
+          document.getElementById('button').onclick = function () {
+              document.getElementById('modal').style.display = "none"
+          };
+
+          document.getElementById('x-button').onclick = function () {
+              document.getElementById('modal').style.display = "none"
+          };
+      };
+        </script>
+<!--  -->
+
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
     <!-- <ol class="carousel-indicators">
       <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -651,7 +722,7 @@
                 </div>
                 <ul class="remove-bullets-from-ul padding-five-pixels">
                 <li><span class="p-job-title">MSN, APRN</span></li>
-                <li><a href="tel:+1-850-980-1827" class="p-tel micro-color">850-980-1827</a></li>
+                <li><a href="tel:+1-352-901-6582" class="p-tel micro-color">352-901-6582</a></li>
                 <li><a href="mailto:ultimatehealthdpc@gmail.com" class="u-email micro-color">ultimatehealthdpc@gmail.com</a></li>
                 <li><a href="index.html#about-me" class="u-url micro-color" rel="me">Bio</a></li>
                 <li class="p-adr h-adr">
@@ -708,7 +779,7 @@
                 <br />
                 <br />
                 <br />
-                <i class="fas fa-mobile-alt text-white"></i> <a class="font-size-x-large text-white p-tel" href="tel:+1-850-980-1827">850-980-1827</a><br>
+                <i class="fas fa-mobile-alt text-white"></i> <a class="font-size-x-large text-white p-tel" href="tel:+1-352-901-6582">352-901-6582</a><br>
                 <br />
                 <br />
 
