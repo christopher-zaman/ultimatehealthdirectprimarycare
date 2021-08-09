@@ -15,8 +15,11 @@ html{overflow-x:hidden;width: auto;}body{line-height:1.7;font-weight:300;font-si
 }
 
 .product-box{
-  border: 1px solid #000;
-  box-shadow: 24px 50px 60px rgb(236 236 236)
+  border: 4px solid;
+  border-image:linear-gradient(90deg,#113d69,#51a0a4,#17a2b8,#8bc34a,#97c73d);
+  box-shadow: 24px 50px 60px rgb(236 236 236);
+  background-color: rgba(255,255,255,0.75);
+  border-image-slice: 1;
 }
 
 
@@ -68,6 +71,43 @@ html{overflow-x:hidden;width: auto;}body{line-height:1.7;font-weight:300;font-si
   background-image: none;
   border-color: #fff;
 }
+
+.iv-products-bg{
+  background-image:url(../images/iv-hydration-bg.png);
+}
+.green-check{
+  color: #97c73d;
+  padding:5px;
+}
+.health-care-services-title-color{
+  color:#e97e00;
+  background:#fff
+}
+.micro-color{
+  color:#e97e00;
+  background:#FFF;
+}
+.learn-more-btn{
+  background-color: #113d69;
+  padding: 3px;
+  color: #fff;
+  border-radius: 5px;
+  letter-spacing: 2px;
+}
+.learn-more-btn:hover{
+  background-color: #fff;
+  color: #113d69;
+  border: 1px solid #113d69;
+}
+.three-em-margin-top{
+  margin-top: 3em;
+}
+.style-left-menu{
+
+}
+.style-left-menu:hover{
+  background-color:#fff;
+}
 /**/
 .amanda-neil-professional-bg{
   background-image: url(../images/amanda.png);
@@ -83,7 +123,7 @@ html{overflow-x:hidden;width: auto;}body{line-height:1.7;font-weight:300;font-si
   margin:auto;
 }
 /**/
-  .footer-image{background-image:url(../images/footer-image.png)}.make-faq-card-transparent{background-color:rgba(0,0,0,.7)!important}.about-me-pink-bg-text{background-color:rgba(0,0,0,.3);color:#fff;padding:8px;font-size:large;box-shadow:24px 50px 60px rgba(0,0,0,.3)}.text-shadow{text-shadow:2px 2px #d2acb7}.the-box-shadow{box-shadow:24px 50px 60px rgba(0,0,0,.3)}.make-employee-member-benefit-bg-light-green{background-color:#e6f1f6}.fix-the-faqs{background:0 0;color:#fff;white-space:inherit}.micro-color{color:#e97e00;background:#f8f8ec}.micro-color-text{color:#e97e00}.keys-padding{padding:10px}.remove-padding{padding:0}.padding-five-pixels{padding:5px}.micro-color-transparent{background-color:rgba(248,248,236,.7);padding:5px}.health-care-services-title-color{color:#e97e00;background:#f8f8ec}.amanda-neil-photo{max-width:100%}#summary{font-size:14px;line-height:1.5}#summary p.collapse:not(.show){height:42px!important;overflow:hidden;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical}#summary p.collapsing{min-height:42px!important}#summary a.collapsed:after{content:'+ Read More'}#summary a:not(.collapsed):after{content:'- Read Less'}.sunny-morning-gradient-text{background-color:red;background-image:linear-gradient(120deg,#ffa354 0,#ff3900 100%);background-size:100%;background-repeat:repeat;-webkit-background-clip:text;-webkit-text-fill-color:transparent;-moz-background-clip:text;-moz-text-fill-color:transparent}.signature{font-size:x-large}@media (max-width:1024px){.thumbnail-size-image{max-width:100%}.fat-burner{background-color:#fbf5ed;border-radius:8px;width:100%;margin:0}.beige-color{width:40%;margin:auto}}@media (max-width:772px){.beige-color{width:10%}}
+  .footer-image{background-image:url(../images/footer-image.png)}.make-faq-card-transparent{background-color:rgba(0,0,0,.7)!important}.about-me-pink-bg-text{background-color:rgba(0,0,0,.3);color:#fff;padding:8px;font-size:large;box-shadow:24px 50px 60px rgba(0,0,0,.3)}.text-shadow{text-shadow:2px 2px #d2acb7}.the-box-shadow{box-shadow:24px 50px 60px rgba(0,0,0,.3)}.make-employee-member-benefit-bg-light-green{background-color:#e6f1f6}.fix-the-faqs{background:0 0;color:#fff;white-space:inherit}.micro-color-text{color:#e97e00}.keys-padding{padding:10px}.remove-padding{padding:0}.padding-five-pixels{padding:5px}.micro-color-transparent{background-color:rgba(248,248,236,.7);padding:5px}.amanda-neil-photo{max-width:100%}#summary{font-size:14px;line-height:1.5}#summary p.collapse:not(.show){height:42px!important;overflow:hidden;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical}#summary p.collapsing{min-height:42px!important}#summary a.collapsed:after{content:'+ Read More'}#summary a:not(.collapsed):after{content:'- Read Less'}.sunny-morning-gradient-text{background-color:red;background-image:linear-gradient(120deg,#ffa354 0,#ff3900 100%);background-size:100%;background-repeat:repeat;-webkit-background-clip:text;-webkit-text-fill-color:transparent;-moz-background-clip:text;-moz-text-fill-color:transparent}.signature{font-size:x-large}@media (max-width:1024px){.thumbnail-size-image{max-width:100%}.fat-burner{background-color:#fbf5ed;border-radius:8px;width:100%;margin:0}.beige-color{width:40%;margin:auto}}@media (max-width:772px){.beige-color{width:10%}}
 
 .whats-going-on{
 	width: 15%;
