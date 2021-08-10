@@ -93,6 +93,8 @@ html{overflow-x:hidden;width: auto;}body{line-height:1.7;font-weight:300;font-si
   color: #fff;
   border-radius: 5px;
   letter-spacing: 2px;
+  margin: 0px 0 5px 0;
+  display: inline-block;
 }
 .learn-more-btn:hover{
   background-color: #fff;
