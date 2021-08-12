@@ -38,6 +38,10 @@ html{overflow-x:hidden;width: auto;}body{line-height:1.7;font-weight:300;font-si
   background-color: rgba(255,255,255,0.75);
   border-image-slice: 1;
 }
+.home-nav-mobile-menu{
+  padding-left: 20px;
+  font-size: 20px;
+}
 .orange-bg{
   background: #d66d00;
 }
