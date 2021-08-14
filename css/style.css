@@ -35,7 +35,24 @@ html{overflow-x:hidden;width: auto;}body{line-height:1.7;font-weight:300;font-si
 .princeton-orange{
   color: #d66d00;
 }
-
+.color-scheme-bg-rounded{
+    background-color: rgba(255,255,255,.5);
+    text-align: center;
+    width: 50%;
+    border: 2px solid;
+    border-radius: 5px;
+    margin: auto;
+    border-image: linear-gradient(90deg,#113d69,#51a0a4,#17a2b8,#8bc34a,#97c73d);
+    border-image-slice: 1;
+}
+.color-scheme-bg-rounded-app-btn{
+  background-color: rgba(0,0,0,.5);
+  text-align: center;
+  border: 2px solid;
+  border-radius: 5px;
+  border-image: linear-gradient(90deg,#113d69,#51a0a4,#17a2b8,#8bc34a,#97c73d);
+  border-image-slice: 1;
+}
 .link-to-pages:hover{
   border-image: linear-gradient(90deg,#113d69,#51a0a4,#17a2b8,#8bc34a,#97c73d);
   border-bottom: 2px solid;
