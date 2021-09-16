@@ -36,8 +36,12 @@ html{overflow-x:hidden;width: auto;}body{line-height:1.7;font-weight:300;font-si
 }
 .appointment-btn{
   display: block;
+<<<<<<< HEAD
   margin: 0 0 99px 0;
   max-width: 50%;
+=======
+  margin: 0px 0px -30px 0px;
+>>>>>>> 275a58d18ee458f496413e77a5f3a46cec49c691
 }
 .bg-none{
   background: none;
