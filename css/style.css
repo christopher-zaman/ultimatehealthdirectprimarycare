@@ -9,9 +9,15 @@ html{overflow-x:hidden;width: auto;}body{line-height:1.7;font-weight:300;font-si
 }
 .product-image-title{
   background-color: #8ad2e6;
-
-
   color:#fff;
+}
+.finance-box{
+  z-index: 1;
+  margin: -289px -12px 0 1340px;
+  position: relative;
+}
+.max-width-100{
+  max-width: 100%;
 }
 .product-list{
   list-style-type: none;
@@ -30,7 +36,8 @@ html{overflow-x:hidden;width: auto;}body{line-height:1.7;font-weight:300;font-si
 }
 .appointment-btn{
   display: block;
-  margin: 0px 0 -30px 0;
+  margin: 0 0 99px 0;
+  max-width: 50%;
 }
 .bg-none{
   background: none;
@@ -167,6 +174,7 @@ html{overflow-x:hidden;width: auto;}body{line-height:1.7;font-weight:300;font-si
 }
 .three-em-margin-top{
   margin-top: 3em;
+  margin-bottom: -2em;
 }
 .style-left-menu{
 
