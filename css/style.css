@@ -7,6 +7,12 @@ html{overflow-x:hidden;width: auto;}body{line-height:1.7;font-weight:300;font-si
 .product-image-style{
   width:100%;
 }
+.width-70{
+  width:70%;
+}
+.display-block{
+  display:block;
+}
 .product-image-title{
   background-color: #8ad2e6;
   color:#fff;
