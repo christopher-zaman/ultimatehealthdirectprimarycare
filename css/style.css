@@ -28,6 +28,10 @@ html{overflow-x:hidden;width: auto;}body{line-height:1.7;font-weight:300;font-si
 .max-width-100{
   max-width: 100%;
 }
+.mobile-bg{
+  background-image:url("../images/mobile-bg.png");
+  background-size: cover;
+}
 .height-105-px{
   height:105px;
 }
